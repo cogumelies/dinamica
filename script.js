@@ -1,4 +1,4 @@
-// ARRAY DE PRODUTOS
+
 const produtos = [
     {
         nome: "Caixa de Bombons",
@@ -27,7 +27,7 @@ const produtos = [
     }
 ];
 
-// FUNÇÃO PARA CRIAR CARD
+
 function criarCard(produto) {
     return `
         <div class="card">
@@ -38,15 +38,13 @@ function criarCard(produto) {
     `;
 }
 
-// CONTAINER
 const container = document.getElementById("container-produtos");
 
-// RENDERIZAR COM FOR
 for (let i = 0; i < produtos.length; i++) {
     container.innerHTML += criarCard(produtos[i]);
 }
 
-// BOTÃO EXPORTAR JSON
+
 const botao = document.getElementById("exportar");
 const saida = document.getElementById("saidaJson");
 

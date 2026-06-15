@@ -1,4 +1,4 @@
-/* RESET */
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@ body {
     background: #f8eee4;
 }
 
-/* HEADER */
+
 header {
     background: #5c3a2e;
     color: white;
@@ -18,12 +18,12 @@ header {
     padding: 30px;
 }
 
-/* MAIN */
+
 main {
     padding: 30px;
 }
 
-/* FLEXBOX DOS CARDS */
+
 .produtos {
     display: flex;
     gap: 20px;
@@ -31,7 +31,7 @@ main {
     margin-bottom: 30px;
 }
 
-/* CARD */
+
 .card {
     width: 220px;
     background: white;
@@ -49,7 +49,6 @@ main {
     margin-bottom: 8px;
 }
 
-/* BOTÃO */
 button {
     background: #5c3a2e;
     color: white;
@@ -63,11 +62,14 @@ button:hover {
     background: #7a4b39;
 }
 
-/* JSON */
+
 #saidaJson {
     margin-top: 20px;
     background: white;
     padding: 20px;
     border-radius: 10px;
     white-space: pre-wrap;
+}
+pre:empty {
+    display: none;
 }
